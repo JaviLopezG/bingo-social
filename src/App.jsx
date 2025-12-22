@@ -352,23 +352,23 @@ export default function SocialBingoApp() {
             <p className="text-slate-500 mb-8">Social. Real-time.</p>
             
             <button onClick={() => setView('create')} className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-lg mb-4 transition flex items-center justify-center gap-2">
-              <Edit2 size={20} /> Crear Nuevo
+              <Edit2 size={20} /> Create New
             </button>
 
             <div className="relative flex py-5 items-center">
-              <div className="flex-grow border-t border-gray-300"></div><span className="flex-shrink-0 mx-4 text-gray-400">O</span><div className="flex-grow border-t border-gray-300"></div>
+              <div className="flex-grow border-t border-gray-300"></div><span className="flex-shrink-0 mx-4 text-gray-400">Or</span><div className="flex-grow border-t border-gray-300"></div>
             </div>
 
             <div className="flex gap-2">
-              <input type="text" placeholder="ID de Partida" className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" value={gameId} onChange={(e) => setGameId(e.target.value)} />
-              <button onClick={() => gameId && setView('play')} className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2 px-4 rounded-lg transition">Unirse</button>
+              <input type="text" placeholder="Play ID" className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" value={gameId} onChange={(e) => setGameId(e.target.value)} />
+              <button onClick={() => gameId && setView('play')} className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2 px-4 rounded-lg transition">Join</button>
             </div>
             
             {errorMsg && <div className="mt-4 text-xs text-red-500 bg-red-50 p-2 rounded">{errorMsg}</div>}
           </div>
 
           <div className="space-y-2">
-            <h3 className="text-slate-500 font-bold text-sm ml-2 uppercase tracking-wide">Tableros Recientes</h3>
+            <h3 className="text-slate-500 font-bold text-sm ml-2 uppercase tracking-wide">Last cards</h3>
             {recentGames.length === 0 && <div className="text-center text-slate-400 text-sm italic">No hay partidas recientes.</div>}
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -376,7 +376,7 @@ export default function SocialBingoApp() {
                 <div key={g.id} onClick={() => { setGameId(g.id); setView('play'); }} className="bg-white p-4 rounded-lg shadow-sm border border-slate-200 cursor-pointer hover:border-indigo-400 hover:shadow-md transition group">
                   <div className="flex justify-between items-start mb-1">
                     <div className="font-bold text-slate-700 group-hover:text-indigo-600 transition truncate pr-2">
-                      {g.creatorName ? `Por ${g.creatorName}` : g.id}
+                      {g.creatorName ? `By ${g.creatorName}` : g.id}
                     </div>
                     <div className="flex-shrink-0 flex items-center text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-1 rounded-full"><Users size={12} className="mr-1"/> {g.participantCount || 0}</div>
                   </div>
@@ -397,12 +397,12 @@ export default function SocialBingoApp() {
       <div className="w-full min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
         <style>{`#root { width: 100%; max-width: 100%; } body { display: block; place-items: unset; }`}</style>
         <div className="w-full max-w-2xl md:max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300">
-          <div className="bg-indigo-600 p-6"><h2 className="text-2xl font-bold text-white flex items-center gap-2"><Edit2 /> Crear Lista</h2><p className="text-indigo-200 text-sm mt-1">Introduce de 10 a 20 frases.</p></div>
+          <div className="bg-indigo-600 p-6"><h2 className="text-2xl font-bold text-white flex items-center gap-2"><Edit2 /> Create new card</h2><p className="text-indigo-200 text-sm mt-1">Write from 10 to 20 sentences.</p></div>
           <div className="p-6">
-            <textarea className="w-full h-64 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none bg-slate-50 text-slate-800" placeholder="Frases..." value={inputList} onChange={(e) => setInputList(e.target.value)} />
+            <textarea className="w-full h-64 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none bg-slate-50 text-slate-800" placeholder="Sentences..." value={inputList} onChange={(e) => setInputList(e.target.value)} />
             <div className="flex justify-between items-center mt-4">
               <div className={`text-sm font-bold ${itemCount >= 10 && itemCount <= 20 ? 'text-green-600' : 'text-slate-400'}`}>{itemCount}/20 items</div>
-              <div className="flex gap-4"><button onClick={() => setView('home')} className="text-slate-500 hover:text-slate-800">Cancelar</button><button onClick={handleCreateGame} disabled={isCreating || itemCount < 10 || itemCount > 20} className="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 disabled:opacity-50 transition">Generar</button></div>
+              <div className="flex gap-4"><button onClick={() => setView('home')} className="text-slate-500 hover:text-slate-800">Cancel</button><button onClick={handleCreateGame} disabled={isCreating || itemCount < 10 || itemCount > 20} className="bg-indigo-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-indigo-700 disabled:opacity-50 transition">Create</button></div>
             </div>
           </div>
         </div>
@@ -422,11 +422,11 @@ export default function SocialBingoApp() {
           <div className="flex flex-col">
             <h1 className="font-bold text-slate-800 text-lg md:text-xl">BINGO</h1>
             <div className="text-xs text-slate-500 flex items-center gap-1 cursor-pointer hover:text-indigo-600" onClick={copyLink}>
-               <LinkIcon size={10} /> Copiar enlace
+               <LinkIcon size={10} /> Copy direct link
             </div>
           </div>
           <div className="flex items-center gap-2">
-            {isEditingName ? <input autoFocus className="border rounded px-2 py-1 text-sm w-32" value={newName} onChange={(e) => setNewName(e.target.value)} onBlur={updateName} onKeyDown={(e) => e.key === 'Enter' && updateName()} /> : <button onClick={() => setIsEditingName(true)} className="flex flex-col items-end group"><span className="text-xs text-slate-400">Eres</span><span className="font-bold text-indigo-600 flex items-center gap-1 group-hover:underline">{myParticipantData?.name || '...'} <Edit2 size={12}/></span></button>}
+            {isEditingName ? <input autoFocus className="border rounded px-2 py-1 text-sm w-32" value={newName} onChange={(e) => setNewName(e.target.value)} onBlur={updateName} onKeyDown={(e) => e.key === 'Enter' && updateName()} /> : <button onClick={() => setIsEditingName(true)} className="flex flex-col items-end group"><span className="text-xs text-slate-400">You are</span><span className="font-bold flex items-center gap-1 group-hover:underline">{myParticipantData?.name || '...'} <Edit2 size={12}/></span></button>}
           </div>
         </div>
       </header>
@@ -441,7 +441,7 @@ export default function SocialBingoApp() {
           </div>
         </div>
         <div className="max-w-5xl mx-auto">
-          <h3 className="text-slate-500 font-bold mb-4 flex items-center gap-2"><Users size={18} /> Participantes ({participants.length})</h3>
+          <h3 className="text-slate-500 font-bold mb-4 flex items-center gap-2"><Users size={18} /> Participants ({participants.length})</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {participants.map((p) => (
               <div key={p.userId} className="bg-white p-3 rounded-lg shadow-sm flex items-stretch gap-3 border border-slate-100 transition-all duration-500 ease-in-out">
