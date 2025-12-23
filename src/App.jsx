@@ -360,7 +360,7 @@ export default function SocialBingoApp() {
             </div>
 
             <div className="flex gap-2">
-              <input type="text" placeholder="Play ID" className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" value={gameId} onChange={(e) => setGameId(e.target.value)} />
+              <input type="text" placeholder="Game ID" className="flex-1 border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" value={gameId} onChange={(e) => setGameId(e.target.value)} />
               <button onClick={() => gameId && setView('play')} className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-2 px-4 rounded-lg transition">Join</button>
             </div>
             
