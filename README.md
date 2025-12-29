@@ -9,10 +9,10 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/javilopezg/bingo-social/documentation.yml?branch=main&style=for-the-badge">
-  <img alt="GitHub" src="https://img.shields.io/github/license/javilopezg/bingo-social?style=for-the-badge">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/javilopezg/bingo-social?style=for-the-badge">
-  <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/javilopezg/bingo-social?style=for-the-badge">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/JaviLopezG/bingo-social/documentation.yml?branch=main&style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/JaviLopezG/bingo-social?style=for-the-badge">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/JaviLopezG/bingo-social?style=for-the-badge">
+  <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/JaviLopezG/bingo-social?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@ To get started, you can either use the hosted version at [bingo-social.web.app](
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/javilopezg/bingo-social.git
+    git clone https://github.com/JaviLopezG/bingo-social.git
     ```
 2.  Install the dependencies:
     ```bash
@@ -115,7 +115,7 @@ This is a "weekend project" and future development depends on community interest
 
 
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/javilopezg/bingo-social/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/JaviLopezG/bingo-social/issues).
 
 
 
