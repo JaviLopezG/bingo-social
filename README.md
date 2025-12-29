@@ -1,16 +1,95 @@
-# React + Vite
+<p align="center">
+  <img src="docs/assets/logo.png" alt="Bingo Social Logo" width="200"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Bingo Social</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  A real-time bingo card creator for social events.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/javilopezg/bingo-social/documentation.yml?branch=main&style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/javilopezg/bingo-social?style=for-the-badge">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/javilopezg/bingo-social?style=for-the-badge">
+  <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/javilopezg/bingo-social?style=for-the-badge">
+</p>
 
-## React Compiler
+## 🚀 What is Bingo Social?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Bingo Social is a **real-time bingo card creator** that allows multiple users to play together in real-time. It's perfect for social events, company gatherings, or just for fun!
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Real-time updates:** Thanks to Firebase Firestore, all users see the same bingo card and updates in real-time.
+*   **No login required:** Anyone with the link can access the card and play.
+*   **Customizable cards:** You can create your own bingo cards with custom text.
+*   **Fun and interactive:** A great way to engage with your friends, family, or colleagues.
+
+## 🚀 Quick Start
+
+To get started, you can either use the hosted version at [bingo-social.web.app](http://bingo-social.web.app/) or run it locally.
+
+### Local Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/javilopezg/bingo-social.git
+    ```
+2.  Install the dependencies:
+    ```bash
+    cd bingo-social
+    npm install
+    ```
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+
+## 📦 Dependencies
+
+*   [React](https://reactjs.org/)
+*   [Vite](https://vitejs.dev/)
+*   [Firebase](https://firebase.google.com/)
+*   [Tailwind CSS](https://tailwindcss.com/)
+
+## 🧑‍💻 Usage
+
+### User Stories
+
+> As a user, I want to be able to create a new bingo card with custom text.
+>
+> As a user, I want to be able to share the bingo card with my friends.
+>
+> As a user, I want to be able to see the bingo card updates in real-time.
+
+### Code Snippets
+
+```jsx
+// src/App.jsx
+
+import React from 'react';
+
+const App = () => {
+  return (
+    <div className="App">
+      <h1>Bingo Social</h1>
+      {/* Your code here */}
+    </div>
+  );
+};
+
+export default App;
+```
+
+## 🗺️ Roadmap
+
+This is a "weekend project" and future development depends on community interest. If you have any suggestions or feedback, please feel free to open an issue or a pull request.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/javilopezg/bingo-social/issues).
+
+## 📝 License
+
+This project is [BSD-3-Clause](LICENSE) licensed.
