@@ -31,6 +31,8 @@
 <p align="center">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/JaviLopezG/bingo-social/documentation.yml?branch=main&style=for-the-badge">
   <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/JaviLopezG/bingo-social?style=for-the-badge">
+  <a href="https://bingo-social.yups.me/" target="_blank"><img alt="Deployment" src="https://img.shields.io/badge/website-up-green?style=for-the-badge&logo=firebase"></a>
+  <a href="https://securityscorecards.dev/viewer/?uri=github.com/JaviLopezG/bingo-social" target="_blank"><img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/JaviLopezG/bingo-social?style=for-the-badge"></a>
 </p>
 
 <p align="center">
