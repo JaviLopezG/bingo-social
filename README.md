@@ -84,12 +84,34 @@ export default App;
 
 ## 🗺️ Roadmap
 
+
+
 This is a "weekend project" and future development depends on community interest. If you have any suggestions or feedback, please feel free to open an issue or a pull request.
+
+
+
+## 📸 Screenshot
+
+
+
+<p align="center">
+
+  <img src="docs/assets/screenshot.png" alt="Bingo Social Screenshot" width="600"/>
+
+</p>
+
+
 
 ## 🤝 Contributing
 
+
+
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/javilopezg/bingo-social/issues).
 
+
+
 ## 📝 License
+
+
 
 This project is [BSD-3-Clause](LICENSE) licensed.
