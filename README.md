@@ -12,6 +12,7 @@
     - [User Stories](#user-stories)
     - [Code Snippets](#code-snippets)
   - [🗺️ Roadmap](#-roadmap)
+  - [📸 Screenshot](#-screenshot)
   - [🤝 Contributing](#-contributing)
   - [📝 License](#-license)
 
