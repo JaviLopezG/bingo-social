@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
+
+- [Bingo Social](#bingo-social)
+  - [🚀 What is Bingo Social?](#-what-is-bingo-social)
+  - [✨ Key Features](#-key-features)
+  - [🚀 Quick Start](#-quick-start)
+    - [Local Installation](#local-installation)
+  - [📦 Dependencies](#-dependencies)
+  - [🧑‍💻 Usage](#-usage)
+    - [User Stories](#user-stories)
+    - [Code Snippets](#code-snippets)
+  - [🗺️ Roadmap](#-roadmap)
+  - [📸 Screenshot](#-screenshot)
+  - [🤝 Contributing](#-contributing)
+  - [📝 License](#-license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <p align="center">
   <img src="docs/assets/logo.png" alt="Bingo Social Logo" width="200"/>
 </p>
