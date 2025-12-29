@@ -15,6 +15,15 @@
   <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/javilopezg/bingo-social?style=for-the-badge">
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=javilopezg&show_icons=true&theme=dark" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=javilopezg&layout=compact&theme=dark" alt="Top Languages">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=3366FF&center=true&vCenter=true&width=435&lines=Real-time+bingo+creator;Built+with+React+and+Firebase;No+login+required;Play+with+friends!" alt="Typing SVG">
+</p>
+
 ## 🚀 What is Bingo Social?
 
 Bingo Social is a **real-time bingo card creator** that allows multiple users to play together in real-time. It's perfect for social events, company gatherings, or just for fun!
