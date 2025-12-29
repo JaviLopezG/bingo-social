@@ -114,6 +114,30 @@ This is a "weekend project" and future development depends on community interest
 
 
 
+## 📸 Screenshot
+
+
+
+
+
+
+
+<p align="center">
+
+
+
+  <img src="docs/assets/screenshot.png" alt="Bingo Social Screenshot" width="600"/>
+
+
+
+</p>
+
+
+
+
+
+
+
 ## 🤝 Contributing
 
 
