@@ -29,15 +29,7 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/JaviLopezG/bingo-social/documentation.yml?branch=main&style=for-the-badge">
-  <img alt="GitHub" src="https://img.shields.io/github/license/JaviLopezG/bingo-social?style=for-the-badge">
   <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/JaviLopezG/bingo-social?style=for-the-badge">
-  <img alt="OpenSSF Scorecard" src="https://img.shields.io/ossf-scorecard/github.com/JaviLopezG/bingo-social?style=for-the-badge">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=javilopezg&show_icons=true&theme=dark" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=javilopezg&layout=compact&theme=dark" alt="Top Languages">
 </p>
 
 <p align="center">
@@ -119,15 +111,7 @@ This is a "weekend project" and future development depends on community interest
 
 
 
-## 📸 Screenshot
 
-
-
-<p align="center">
-
-  <img src="docs/assets/screenshot.png" alt="Bingo Social Screenshot" width="600"/>
-
-</p>
 
 
 
