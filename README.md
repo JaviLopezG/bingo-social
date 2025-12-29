@@ -29,6 +29,7 @@
 </p>
 
 <p align="center">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/JaviLopezG/bingo-social/documentation.yml?branch=main&style=for-the-badge">
   <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/JaviLopezG/bingo-social?style=for-the-badge">
 </p>
 
